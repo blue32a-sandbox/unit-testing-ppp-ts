@@ -1,0 +1,16 @@
+{
+  "name": "Node.js",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "node",
+  "workspaceFolder": "/home/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "Orta.vscode-jest"
+      ]
+    }
+  }
+}
